@@ -11,11 +11,10 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red,
       ),
-      body: const Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.lightBlue,
-          size: 50,
+      body: Center(
+          child: ElevatedButton(
+            child: const Text('Button'),
+            onPressed: () {},
         )
       ),
       floatingActionButton: FloatingActionButton(
