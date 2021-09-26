@@ -12,10 +12,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red,
       ),
       body: Center(
-          child: ElevatedButton(
-            child: const Text('Button'),
+          child: IconButton(
             onPressed: () {},
-            style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.lightGreen)),
+            icon: const Icon(Icons.airport_shuttle)
           )
       ),
       floatingActionButton: FloatingActionButton(
